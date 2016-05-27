@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http/www.w3.org/1999/xhtml">
+
+<head>
+<title>INTERIORDESIGNING.COM</title>
+<meta name="description" content="interior decoration" />
+<meta name="keyword" content="decoration,interior desiging />
+<meta name="designer" content="Neelima" />
+<link rel="stylesheet" href="style.css" type="text/css: />
+<meta http-equiv=content-type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+<div id="header">
+
+<div id="logo"><img src="images/logonew.jpg" width="200px"/></div>
+
+<div id="nav">
+
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+			<li><a href="moreimages.html">MORE IMAGES</a></li>
+			
+		</ul>
+			
+			
+</div>
+
+
+<script type="text/javascript">
+function validateForm ()
+{
+var x=document.forms["Form"]["fname"].value
+if (x==null || x=="")
+{
+alert ("Enter your first name");
+return false;
+}
+}
+</script>
+<form name= "Form" action= "demo_form.asp" onSubmit= "returnb validateForm()" method="Post">
+Enter your first name here: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
